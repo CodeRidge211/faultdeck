@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import LayoutStyles from "./layout-styles";
 
@@ -16,6 +17,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-NLDTKK0LFK"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-NLDTKK0LFK');
+            `,
+          }}
+        />
         <LayoutStyles />
         <div className="layout-wrapper">
           <header className="site-header container">

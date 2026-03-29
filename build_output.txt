@@ -1,0 +1,66 @@
+﻿  Γû▓ Next.js 14.2.22
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+node.exe : Failed to 
+compile.
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (Fai  
+  led to compile.:String   
+ ) [], RemoteException
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+
+./src/app/codes/[slug]/page
+.tsx:25:14
+Type error: Unexpected 
+token. Did you mean 
+`{'>'}` or `&gt;`?
+
+[0m [90m 23 |[39m     
+[33m<[39m[33mdiv[39m cl
+assName[33m=[39m[32m"res
+ult-page container animate-
+fade-in"[39m[33m>[39m[0
+m
+[0m [90m 24 |[39m       
+[33m<[39m[33mnav[39m cl
+assName[33m=[39m[32m"bre
+adcrumb"[39m[33m>[39m[0
+m
+[0m[31m[1m>[22m[39m[9
+0m 25 |[39m         
+[33mHome[39m [33m>[39m 
+{data[33m.[39mcategory[3
+3m.[39mcharAt([35m0[39m)
+[33m.[39mtoUpperCase() 
+[33m+[39m data[33m.[39m
+category[33m.[39mslice([
+35m1[39m)} [33m>[39m 
+{data[33m.[39mbrand} 
+[33m>[39m {data[33m.[39
+mdevice_type}[0m
+[0m [90m    |[39m       
+       
+[31m[1m^[22m[39m[0m
+[0m [90m 26 |[39m       
+[33m<[39m[33m/[39m[33m
+nav[39m[33m>[39m[0m
+[0m [90m 27 |[39m[0m
+[0m [90m 28 |[39m       
+[33m<[39m[33mheader[39m
+ className[33m=[39m[32m"
+result-header"[39m[33m>[
+39m[0m
+Static worker exited with 
+code: 1 and signal: null

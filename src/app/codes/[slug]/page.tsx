@@ -22,7 +22,7 @@ export default function ErrorCodeResult() {
   return (
     <div className="result-page container animate-fade-in">
       <nav className="breadcrumb">
-        Home > {data.category.charAt(0).toUpperCase() + data.category.slice(1)} > {data.brand} > {data.device_type}
+        <a href="/">Home</a> <span>›</span> <a href={`/categories/${data.category}`}>{data.category.charAt(0).toUpperCase() + data.category.slice(1)}</a> <span>›</span> <a href={`/brands/${data.brand.toLowerCase()}`}>{data.brand}</a> <span>›</span> {data.device_type}
       </nav>
 
       <header className="result-header">

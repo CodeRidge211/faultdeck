@@ -1,0 +1,132 @@
+﻿  Γû▓ Next.js 14.2.22
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+node.exe : 
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified    : 
+(:String) [], Rem    
+oteException
+    + FullyQualifiedErr    
+orId : NativeComman    
+dError
+ 
+Failed to compile.
+
+./src/app/brands/[name]/pag
+e.tsx
+61:39  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  
+react/no-unescaped-entities
+69:30  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  
+react/no-unescaped-entities
+
+./src/app/categories/[slug]
+/page.tsx
+52:42  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/n
+o-explicit-any
+
+./src/app/layout.tsx
+38:53  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  
+react/no-unescaped-entities
+
+./src/app/page.tsx
+13:59  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  
+react/no-unescaped-entities
+13:73  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  
+react/no-unescaped-entities
+34:24  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  
+react/no-unescaped-entities
+72:21  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  
+react/no-unescaped-entities
+72:33  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  
+react/no-unescaped-entities
+
+./src/app/symptom-checker/p
+age.tsx
+39:17  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  
+react/no-unescaped-entities
+92:29  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  
+react/no-unescaped-entities
+94:42  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/n
+o-explicit-any
+324:64  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/n
+o-explicit-any
+324:79  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/n
+o-explicit-any
+
+./src/components/ResultPage
+/RecallCheck.tsx
+33:62  Error: `'` can be 
+escaped with `&apos;`, 
+`&lsquo;`, `&#39;`, 
+`&rsquo;`.  
+react/no-unescaped-entities
+
+./src/data/symptoms.ts
+1:42  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/n
+o-explicit-any
+
+./src/lib/import.ts
+8:42  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/n
+o-explicit-any
+12:40  Error: Unexpected 
+any. Specify a different 
+type.  @typescript-eslint/n
+o-explicit-any
+
+info  - Need to disable 
+some ESLint rules? Learn 
+more here: https://nextjs.o
+rg/docs/basic-features/esli
+nt#disabling-rules

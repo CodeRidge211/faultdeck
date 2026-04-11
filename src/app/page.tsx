@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import { BRANDS, INITIAL_FEED } from '@/data/initial';
 
 export default function Home() {

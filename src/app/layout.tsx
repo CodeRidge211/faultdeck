@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { useEffect } from 'react';
 import LayoutStyles from "./layout-styles";
 
 export const metadata: Metadata = {

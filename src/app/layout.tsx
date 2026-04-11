@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import "./globals.css";
+import { useEffect } from 'react';
 import LayoutStyles from "./layout-styles";
 
 export const metadata: Metadata = {
